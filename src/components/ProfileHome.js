@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
 import FavoriteShows from './favoriteShows';
+import './profileHome.scss';
 
 export default class ProfileHome extends Component {
   constructor(props) {
@@ -26,7 +27,7 @@ export default class ProfileHome extends Component {
         <section>
           <h1>Listing of Shows</h1>
         </section>
-        <section className='Shows'>
+        <section className='shows'>
           <FavoriteShows shows={data} />
         </section>
       </>
