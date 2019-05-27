@@ -50,3 +50,7 @@ Information about about Favorite Shows
 }
 */
 ```
+
+TODO: Parsing Data
+I have changed the format from `{ [ {}, {}, {} ..]}` to `[ {},{},{} ]`  
+I will come back to this to figure out why I was unable to get the array as I expected. 
